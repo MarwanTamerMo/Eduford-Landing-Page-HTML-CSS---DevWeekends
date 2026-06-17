@@ -296,14 +296,14 @@ h3{
     padding: 0;
 }
 
-.testimonials-col .fa-solid, .testimonials-col .fa-regular{
-    color: #f44336;
+.testimonials-col i{
+    color: #f44336 !important;
 }
 
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("/eduford_img/banner2.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("eduford_img/banner2.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -315,4 +315,27 @@ h3{
     color: #fff;
     padding: 0;
     margin-bottom: 40px;
+}
+
+.footer{
+    padding: 30px 0 ;
+    text-align: center;
+    width: 100%;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .fa-brands{
+    color: #8236f4;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.icons .fa-heart{
+    color: #8236f4;
 }
